@@ -10,7 +10,6 @@ apiBase = '/lootrserver/api/v1/'
 
 
 configure do
-  set :port, $PORT
   set :logging, true
   set :dump_errors, true
   set :public_folder, Proc.new { File.expand_path(File.join(root, 'Fixtures')) }
