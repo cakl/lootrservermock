@@ -1,1 +1,1 @@
-web: bundle exec ruby server.rb -p 80
+web: bundle exec ruby server.rb
