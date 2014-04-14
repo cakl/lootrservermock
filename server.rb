@@ -55,6 +55,16 @@ get apiBase + 'loots/:id' do
 end
 
 
+post apiBase + 'loots' do
+  if params[:id] == '666'
+    status 404
+  else
+    status 201
+    render_fixture('lootPost.json')
+  end
+end
+
+
 #CONTENTS
 # BENÖTIGT TOKEN:
 # https://username:token@www.lootrapp.com/api/v1/contents

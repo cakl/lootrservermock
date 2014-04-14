@@ -1,0 +1,49 @@
+{
+    "reports": [
+        {
+            "id": 1,
+            "reportTime": "2014-03-23T21:30:10.178",
+            "purpose": "copyright bilder",
+            "loot": 3,
+            "creator": {
+                "username": "Fotostudio Brünzli"
+            }
+        },
+        {
+            "id": 2,
+            "reportTime": "2014-03-13T21:30:14.178",
+            "purpose": "rassistischer inhalt, raus",
+            "loot": 1,
+            "creator": {
+                "username": "Huniluni"
+            }
+        },
+        {
+            "id": 3,
+            "reportTime": "2014-03-21T21:30:10.178",
+            "purpose": "wer hat meine nacktfotos gepostet",
+            "loot": 2,
+            "creator": {
+                "username": "angelika"
+            }
+        },
+        {
+            "id": 4,
+            "reportTime": "2014-03-23T21:30:10.178",
+            "purpose": "copyright bilder",
+            "loot": 3,
+            "creator": {
+                "username": "Fotostudio Brünzli"
+            }
+        },
+        {
+            "id": 5,
+            "reportTime": "2014-02-23T22:30:10.178",
+            "purpose": "Fotos bitte löschen, danke",
+            "loot": 3,
+            "creator": {
+                "username": "anonymous"
+            }
+        }
+    ]
+}
