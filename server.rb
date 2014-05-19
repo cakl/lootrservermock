@@ -59,8 +59,8 @@ post apiBase + 'loots' do
   if params[:id] == '666'
     status 404
   else
-    status 201
     render_fixture('lootPost.json')
+    status 201
   end
 end
 
