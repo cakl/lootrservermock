@@ -1,11 +1,14 @@
 {
-    "users": [
+    "contents": [
         {
-            "id": 4,
-            "registerTime": "2014-03-23T21:30:10.178",
-            "username": "migginator",
-			"email" :"migger@nator.ch",
-			"token" : "d994394a0d3ed2016df048066958edd3"
+            "creator": {
+                "username": "Mario"
+            },
+            "dateCreated": "2014-05-20T22:45:27.885",
+            "id": 17,
+            "thumb": "http://152.96.56.70:8080/lootrserver/api/v1/contents/17/thumb",
+            "type": "image/png",
+            "url": "http://152.96.56.70:8080/lootrserver/api/v1/contents/17/image"
         }
     ]
 }
