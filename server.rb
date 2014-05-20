@@ -74,6 +74,7 @@ post apiBase + 'contents' do
     status 404
   else
     status 201
+    render_fixture('contentsSingle.json');
   end
 end
 
