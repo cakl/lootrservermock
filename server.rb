@@ -109,6 +109,7 @@ end
 # Creates a route that will match /reports
 post apiBase + 'reports' do
   headers 'Location' => apiBase + "reports/12"
+  render_fixture('reportsSingle.json');
   status 201
 end
 
