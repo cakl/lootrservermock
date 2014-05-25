@@ -21,27 +21,33 @@ def render_fixture(filename)
 end
 
 
-
-#LOOTS
-
+#===============================================================================================
 
 
-# Creates a route that will match /loots/lat/47.226/long/8.818/distance/100
+#*************************#
+#   LOOTS                 #
+#*************************#
+
+
+# Creates a route that will match /loots/latitude/47.226/longitude/8.818/distance/100
 # PUNKT nicht KOMMA
 get apiBase + 'loots/latitude/:lat/longitude/:long/distance/:dist' do
-  render_fixture('lootList.json')
+  if params[:distance] < '0'
+    status 404
+  else  
+    render_fixture('lootList.json')
+  end
 end
 
-
-
-
-# Creates a route that will match /oots/lat/47.226/long/8.818/count/4
+# Creates a route that will match /loots/latitude/47.226/longitude/8.818/count/4
 # PUNKT nicht KOMMA
 get apiBase + 'loots/latitude/:lat/longitude/:long/count/:count' do
+  if params[:count] < '0'
+    status 404
+  else  
   render_fixture('lootList.json')
+  end
 end
-
-
 
 # BENÖTIGT TOKEN:
 # https://username:token@www.lootrapp.com/api/v1/loots/3
@@ -54,18 +60,22 @@ get apiBase + 'loots/:id' do
   end
 end
 
-
+# BENÖTIGT TOKEN:
+# https://username:token@www.lootrapp.com/api/v1/loots
+# Creates a route that will match /loots
 post apiBase + 'loots' do
-  if params[:id] == '666'
-    status 404
-  else
-    render_fixture('lootPost.json')
-    status 201
-  end
+   status 201
 end
 
 
-#CONTENTS
+#===============================================================================================
+
+
+#*************************#
+#   CONTENTS              #
+#*************************#
+
+
 # BENÖTIGT TOKEN:
 # https://username:token@www.lootrapp.com/api/v1/contents
 # Creates a route that will match /contents
@@ -74,15 +84,16 @@ post apiBase + 'contents' do
     status 404
   else
     status 201
-    render_fixture('contentsSingle.json');
   end
 end
 
 
+#===============================================================================================
 
 
-
-#REPORTS
+#*************************#
+#   REPORTS               #
+#*************************#
 
 
 # BENÖTIGT TOKEN:
@@ -91,7 +102,6 @@ end
 get apiBase + 'reports' do
   render_fixture('reportsList.json')
 end
-
 
 # BENÖTIGT TOKEN:
 # https://username:token@www.lootrapp.com/api/v1/reports/3
@@ -104,30 +114,33 @@ get apiBase + 'reports/:id' do
   end
 end
 
-
 # BENÖTIGT TOKEN:
 # https://username:token@www.lootrapp.com/api/v1/reports
 # Creates a route that will match /reports
 post apiBase + 'reports' do
   headers 'Location' => apiBase + "reports/12"
-  render_fixture('reportsSingle.json');
   status 201
 end
 
 
+#===============================================================================================
 
 
+#*************************#
+#   USERS                 #
+#*************************#
 
-
-#USERS
 
 # Creates a route that will match /users
 post apiBase + 'users' do
-  status 201
+  if params[:username] == '666'
+    status 401
+  else
+    status 201
+  end
 end
 
-
-# Creates a route that will match /users
+# Creates a route that will match /users/login
 post apiBase + 'users/login' do
   if params[:username] == '666'
     status 401

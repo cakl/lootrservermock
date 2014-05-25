@@ -1,49 +1,76 @@
 {
     "reports": [
         {
-            "id": 1,
-            "reportTime": "2014-03-23T21:30:10.178",
-            "purpose": "copyright bilder",
-            "loot": 3,
             "creator": {
-                "username": "Fotostudio Brünzli"
-            }
+                "username": "liselōttli"
+            },
+            "loot": {
+                "coordinate": {
+                    "id": 11,
+                    "latitude": 47.40875,
+                    "location": "Zürich",
+                    "longitude": 8.591328
+                },
+                "countAccess": 27,
+                "creator": {
+                    "username": "Coolio"
+                },
+                "dateCreated": "2014-05-23T00:00:00",
+                "id": 11,
+                "radius": 50,
+                "summary": "Coolio's Workplace",
+                "title": "Microsoft"
+            },
+            "purpose": "schmuddel!",
+            "reportTime": "2014-05-23T00:00:00"
         },
         {
-            "id": 2,
-            "reportTime": "2014-03-13T21:30:14.178",
-            "purpose": "rassistischer inhalt, raus",
-            "loot": 1,
             "creator": {
-                "username": "Huniluni"
-            }
+                "username": "martinhaemmerli"
+            },
+            "loot": {
+                "coordinate": {
+                    "id": 11,
+                    "latitude": 47.40875,
+                    "location": "Zürich",
+                    "longitude": 8.591328
+                },
+                "countAccess": 27,
+                "creator": {
+                    "username": "Coolio"
+                },
+                "dateCreated": "2014-05-23T00:00:00",
+                "id": 11,
+                "radius": 50,
+                "summary": "Coolio's Workplace",
+                "title": "Microsoft"
+            },
+            "purpose": "I dont like Valser bottles...",
+            "reportTime": "2014-05-23T00:00:00"
         },
         {
-            "id": 3,
-            "reportTime": "2014-03-21T21:30:10.178",
-            "purpose": "wer hat meine nacktfotos gepostet",
-            "loot": 2,
             "creator": {
-                "username": "angelika"
-            }
-        },
-        {
-            "id": 4,
-            "reportTime": "2014-03-23T21:30:10.178",
-            "purpose": "copyright bilder",
-            "loot": 3,
-            "creator": {
-                "username": "Fotostudio Brünzli"
-            }
-        },
-        {
-            "id": 5,
-            "reportTime": "2014-02-23T22:30:10.178",
-            "purpose": "Fotos bitte löschen, danke",
-            "loot": 3,
-            "creator": {
-                "username": "anonymous"
-            }
+                "username": "Mario"
+            },
+            "loot": {
+                "coordinate": {
+                    "id": 3,
+                    "latitude": 47.227013,
+                    "location": "Rapperswil",
+                    "longitude": 8.819006
+                },
+                "countAccess": 0,
+                "creator": {
+                    "username": "Fabio"
+                },
+                "dateCreated": "2014-05-06T00:00:00",
+                "id": 3,
+                "radius": 25,
+                "summary": "Was gibt es wohl bei der Unia?",
+                "title": "UNIA"
+            },
+            "purpose": "Diese Loot entspricht nicht meinem Gusto",
+            "reportTime": "2014-05-15T00:00:00"
         }
     ]
 }

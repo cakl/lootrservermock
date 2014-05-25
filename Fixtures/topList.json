@@ -1,0 +1,154 @@
+{
+    "toplists": {
+        "topcities": [
+            {
+                "counter": 4,
+                "latitude": 47.381237,
+                "longitude": 8.554533,
+                "title": "Zürich"
+            },
+            {
+                "counter": 3,
+                "latitude": 47.225315,
+                "longitude": 8.817373,
+                "title": "Rapperswil"
+            },
+            {
+                "counter": 2,
+                "latitude": 47.31729,
+                "longitude": 8.798353,
+                "title": "Wetzikon"
+            },
+            {
+                "counter": 2,
+                "latitude": 47.23059,
+                "longitude": 8.835829,
+                "title": "Jona"
+            }
+        ],
+        "topcontents": [
+            {
+                "counter": 5,
+                "latitude": 47.40875,
+                "longitude": 8.591328,
+                "title": "Microsoft"
+            },
+            {
+                "counter": 3,
+                "latitude": 47.231,
+                "longitude": 8.834519,
+                "title": "Bahnhof Jona"
+            },
+            {
+                "counter": 2,
+                "latitude": 47.22348,
+                "longitude": 8.817509,
+                "title": "HSR Gebaeude 1"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.378635,
+                "longitude": 8.537856,
+                "title": "HB"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.37039,
+                "longitude": 8.543838,
+                "title": "Grossmuenster"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.316685,
+                "longitude": 8.800509,
+                "title": "Badi Wetzikon"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.225452,
+                "longitude": 8.815605,
+                "title": "Fischermarktplatz"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.227013,
+                "longitude": 8.819006,
+                "title": "UNIA"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.367176,
+                "longitude": 8.545109,
+                "title": "Bellevue"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.230183,
+                "longitude": 8.837137,
+                "title": "Jona Kreisel"
+            }
+        ],
+        "topviews": [
+            {
+                "counter": 27,
+                "latitude": 47.40875,
+                "longitude": 8.591328,
+                "title": "Microsoft"
+            },
+            {
+                "counter": 4,
+                "latitude": 47.231,
+                "longitude": 8.834519,
+                "title": "Bahnhof Jona"
+            },
+            {
+                "counter": 2,
+                "latitude": 47.37039,
+                "longitude": 8.543838,
+                "title": "Grossmuenster"
+            },
+            {
+                "counter": 2,
+                "latitude": 47.225452,
+                "longitude": 8.815605,
+                "title": "Fischermarktplatz"
+            },
+            {
+                "counter": 2,
+                "latitude": 47.22348,
+                "longitude": 8.817509,
+                "title": "HSR Gebaeude 1"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.230183,
+                "longitude": 8.837137,
+                "title": "Jona Kreisel"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.316685,
+                "longitude": 8.800509,
+                "title": "Badi Wetzikon"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.317898,
+                "longitude": 8.796196,
+                "title": "KZO"
+            },
+            {
+                "counter": 1,
+                "latitude": 47.378635,
+                "longitude": 8.537856,
+                "title": "HB"
+            },
+            {
+                "counter": 0,
+                "latitude": 47.227013,
+                "longitude": 8.819006,
+                "title": "UNIA"
+            }
+        ]
+    }
+}
