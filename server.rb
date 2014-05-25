@@ -32,7 +32,7 @@ end
 # Creates a route that will match /loots/latitude/47.226/longitude/8.818/distance/100
 # PUNKT nicht KOMMA
 get apiBase + 'loots/latitude/:lat/longitude/:long/distance/:dist' do
-  if params[:distance] < '0'
+  if params[:dist] < '0'
     status 404
   else  
     render_fixture('lootList.json')
@@ -83,6 +83,7 @@ post apiBase + 'contents' do
   if params[:id] == '666'
     status 404
   else
+    render_fixture('contentsSingle.json')
     status 201
   end
 end
