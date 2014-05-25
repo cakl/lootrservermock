@@ -148,6 +148,6 @@ post apiBase + 'users/login' do
   if params[:username] == '666'
     status 401
   else
-    render_fixture('usersToken.json')
+    render_fixture('usersSingle.json')
   end
 end
