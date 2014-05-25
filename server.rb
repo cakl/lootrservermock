@@ -64,7 +64,8 @@ end
 # https://username:token@www.lootrapp.com/api/v1/loots
 # Creates a route that will match /loots
 post apiBase + 'loots' do
-   status 201
+  render_fixture('lootPost.json')
+  status 201
 end
 
 
@@ -120,6 +121,7 @@ end
 # Creates a route that will match /reports
 post apiBase + 'reports' do
   headers 'Location' => apiBase + "reports/12"
+  render_fixture('reportsSingle.json');
   status 201
 end
 
